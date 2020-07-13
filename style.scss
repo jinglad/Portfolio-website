@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(255,255,255,.5);
+    // height: 100%;
+}
+body{
+    background: #222222;
+    line-height: 1.7;
+    font-weight: 300;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.color-1{
+    color: rgba(255,255,255,.5);
+}
+.color-2{
+    color: #bac964;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fw-200{
+    font-weight: 200;
+}
+.letter-spacing{
+    letter-spacing: .2rem;
+}
+// .clearfix::after{
+//     content: "";
+//     display: block;
+//     height: 0;
+//     clear: both;
+// }
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.692)),url("img/image_1.webp");
+    background-position: center center;
+    overflow: hidden;
+    height: 100vh;
+    .heading-text{
+        // margin: 340px 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+}
+#resume{
+    .resume-content{
+        padding: 30px;
+        background: #333;
+        border-radius: 7px;
+    }
+   
+}
+#about{
+    .hire-me-btn{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 7px 16px;
+        background: #B2C251;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+    .cv-btn{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 7px 16px;
+        background: #5A6268;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+}
+
+#testimonial{
+    blockquote{
+        padding: 30px;
+        margin-left: 40px;
+        background: #333;
+        border-radius: 5px;
+
+        cite{
+            a:hover{
+                color: #bac964;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#services{
+    .services-box{
+        padding: 30px;
+        background: #333;
+        text-align: center;
+        
+        .icon-bx{
+            display: block;
+            margin-bottom: 50px;
+            background: #edf0f2;
+            background: #bac964;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+
+                .icon-bx-2{
+                    font-size: 40px;
+                    color: #080b0e;
+                    position: absolute;
+                    transform: translate(-50%,-50%);
+                    left: 50%;
+                    top: 50%;   
+                }
+        }
+        span{
+            color: #bac964;
+            transition: .3s;
+        }
+        a:hover{
+            text-decoration: none;
+            color: #bac964;
+            span{
+                margin-left: 15px;
+            }
+        }
+    }
+}
+#blog{
+    .card{
+        background: #333;
+        p{
+            a{
+                transition: .3s;
+                i{
+                    transition: .3s;
+                }
+            }
+            a:hover{
+                color: #bac964;
+            }
+            a:hover i{
+                color: #bac964;
+            }
+        }
+    }
+}
+#contact{
+    input{
+        background: #333;
+        border: none;
+    }
+    input:focus{
+        outline: none;
+    }
+    input::placeholder{
+        color: rgba(255,255,255,.5);
+        font-size: 16px;
+    }
+    textarea{
+        background: #333;
+        border: none;
+    }
+    textarea:focus{
+        outline: none;
+    }
+    textarea::placeholder{
+        color: rgba(255,255,255,.5);
+        font-size: 16px;
+    }
+    .submit-btn{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px 16px;
+        background: #B2C251;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+    li{
+        list-style: none;
+        margin-bottom: 25px;
+        span{
+            display: block;
+            color: #2c3e50;
+            letter-spacing: .1em;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+footer{
+    .social-icon{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: #333;
+        font-size: 22px;
+        display: inline-block;
+        margin: 0 10px;
+        position: relative;
+            span{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+
+                i{
+                    color: #bac964;
+                }
+            }
+    }
+}
